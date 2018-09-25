@@ -1,10 +1,10 @@
 /**
  * Definition of application state
  */
-export type State = {};
+export type State = { login: { error: Boolean }};
 /**
  * Applications default state
  */
-const defaultState: State = {};
+const defaultState: State = { login: { error: false }};
 
 export default defaultState;

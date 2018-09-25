@@ -1,6 +1,10 @@
+import { submitLogin } from './login';
+
 /**
  * Application actions
  */
-const Actions = {};
+const Actions = {
+  submitLogin
+};
 
 export default Actions;
